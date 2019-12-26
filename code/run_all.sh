@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "Going to generate Images"
-python main_new.py --cfg cfg/eval_cartoons.yml --gpu 2
+python main_new.py --cfg cfg/eval.yml --gpu 2
 echo "Images have been generated"
 
 echo "Saving the feature vectors for original images"
