@@ -8,7 +8,7 @@ cd code
 python main.py --cfg cfg/train.yml --gpu 0
 ```
 
-To perform condititonal generation, the following steps need to be done - a) Store all the possible generated images b) Compute the texture feature vector of all generated and real images c) Compute the shape feature vector of all generated and real images d) Compute the nearest neighbours in the embedding space of the conditional inputs . 
+To perform condititonal generation, the following steps need to be done - a) Store all the possible generated images b) Compute the texture feature vector of all generated and real images c) Compute the shape feature vector of all generated and real images d) Compute the nearest neighbours in the embedding space of the conditional inputs\
 The following script runs all the above steps -
 ```
 bash run_all.sh
